@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-docs-template-test"
+  description: "backstage-docs-template-test"
+  annotations:
+    github.com/project-slug: "mplesec/backstage-docs-template-test"
+    backstage.io/techdocs-ref: github:https://github.com/mplesec/backstage-docs-template-test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "mplesec"
